@@ -3,6 +3,30 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #FFFFFF; /* Blanco */
+  color: #333333; /* Gris Oscuro */
+}
+
+header, footer {
+  background-color: #000000; /* Negro */
+  color: #FFFFFF; /* Blanco */
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #FFFFFF; /* Blanco */
+  text-decoration: none;
 }
 
 main {
@@ -12,3 +36,4 @@ main {
 section {
   margin-bottom: 2rem;
 }
+
